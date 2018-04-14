@@ -1,0 +1,94 @@
+/*设置全站字体=====================================*/
+@font-face
+{
+  font-family: youyuan;
+  src: url('myfont.ttf'),
+}
+/*全局样式========================================*/
+* {
+  padding: 0;
+  margin:0;
+  font-family: youyuan;
+  color: #091754;
+  font-size: 18px;
+}
+/*超链接全局样式====================================*/
+.content-link {
+  text-decoration: none;
+}
+/*index页面样式*/
+/*主内容区======================================================================*/
+.content {
+  background: white;
+  width:80%;
+  /*height: 100px;*/
+  margin:20px auto;
+  /*background: #ccc;*/
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+/*每一条超链接区域==================================*/
+.content-item {
+  box-sizing: border-box;
+  height: 46px;
+  line-height: 45px;
+  width: 100%;
+  padding: 0 5%;
+  list-style: none;
+  cursor: pointer;
+  border-radius: 7px;
+  background: white;
+  transition: all 0.2s;
+  -moz-transition: all 0.2s;	/* Firefox 4 */
+  -webkit-transition: all 0.2s;	/* Safari 和 Chrome */
+  -o-transition: all 0.2s;	/* Opera */
+}
+.content-item:hover {
+  background: #ccc;
+  color: white;
+}
+.content-time {
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  font-size: 12px;
+  top: 1px;
+  transition: all 0.2s;
+  -moz-transition: all 0.2s;	/* Firefox 4 */
+  -webkit-transition: all 0.2s;	/* Safari 和 Chrome */
+  -o-transition: all 0.2s;	/* Opera */
+}
+.content-item:hover .content-time{
+  color: white;
+}
+/*分割线============================================*/
+.content-divider {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+/* 文章页面样式================================================================= */
+.article {
+  box-sizing: border-box;
+  background: white;
+  width:80%;
+  margin:20px auto;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  padding: 30px 10%;
+}
+.article-title {
+  font-weight: 800;
+  font-family: '楷体';
+  font-size: 26px;
+  padding: 8px;
+  border-bottom: 2px solid #ccc;
+}
+.article-p {
+  margin: 16px 0px;
+  font-family: '微软雅黑';
+  padding: 0px 8px;
+  line-height: 30px;
+  font-size: 17px;
+}
