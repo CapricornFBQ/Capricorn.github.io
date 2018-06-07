@@ -71,18 +71,18 @@
 .article {
   box-sizing: border-box;
   background: white;
-  width:80%;
+  /* width:80%;*/
   margin:20px auto;
   border-radius: 8px;
   border: 1px solid #ccc;
   overflow: hidden;
-  padding: 30px 10%;
+  /* padding: 30px 10%;*/
 }
 .article-title {
   font-weight: 800;
   font-family: '楷体';
   font-size: 26px;
-  padding: 8px;
+  /* padding: 8px;*/
   border-bottom: 2px solid #ccc;
 }
 .article-p {
@@ -90,5 +90,5 @@
   font-family: '微软雅黑';
   padding: 0px 8px;
   line-height: 30px;
-  font-size: 17px;
+  /* font-size: 17px;*/
 }
