@@ -1,0 +1,13 @@
+@media screen and (max-width: 768x) {
+	/* 文章页面样式================================================================= */
+	.article {
+	  width:90%;
+	  padding: 10px 5%;
+	}
+	.article-title {
+	  padding: 4px;
+	}
+	.article-p {
+	  font-size: 16px;
+	}
+}
